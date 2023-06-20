@@ -1,1 +1,19 @@
 /* your code */
+thead{
+	background-color :rgb(33,90,142);
+	color:white;
+}
+tr:nth-child(even){
+	background-color:lightgrey;
+}
+tr,th{
+	padding:15px;
+	text-align:left;
+}
+tr:hover{
+	background-color:seagreen;
+}
+table{
+	border-radius: 10px;
+	 border: 4px solid white;
+}
